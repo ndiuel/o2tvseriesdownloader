@@ -1,0 +1,243 @@
+1648326957114	geckodriver	INFO	Listening on 127.0.0.1:62337
+1648326959358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62338" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilezwwjrm"
+1648326966440	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilezwwjrm\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:62338/devtools/browser/84ec8d5c-6297-46f6-b64f-47f187f6ff9d
+1648326995323	Marionette	INFO	Listening on port 62345
+1648326996436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648327008679	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648327010307	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648327029939	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648327223617	Marionette	INFO	Stopped listening on port 62345
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648327232076	geckodriver	INFO	Listening on 127.0.0.1:56277
+1648327234083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56278" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile9qwJxY"
+1648327250151	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile9qwJxY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56278/devtools/browser/cd895330-363b-4091-8b17-3024969a4b6a
+1648327256967	Marionette	INFO	Listening on port 56285
+1648327257133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648327264397	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648327265232	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648327275190	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+1648327890013	geckodriver	INFO	Listening on 127.0.0.1:57764
+1648327892084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57765" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileUOYlLZ"
+1648327892517	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileUOYlLZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57765/devtools/browser/fb386aad-a41f-4d1d-b189-8817cbac452d
+1648327898830	Marionette	INFO	Listening on port 57773
+1648327900318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648327906489	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648327911504	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648327920334	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328165952	Marionette	INFO	Stopped listening on port 57773
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58238" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileM0N6a0"
+1648328063899	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileM0N6a0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58238/devtools/browser/de134a0e-4819-4a8c-a047-126eaa86858e
+1648328071878	Marionette	INFO	Listening on port 58245
+1648328072075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648328078408	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328080355	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648328090837	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328167301	Marionette	INFO	Stopped listening on port 58245
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648328170812	geckodriver	INFO	Listening on 127.0.0.1:58629
+1648328172816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58630" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilesU4T5k"
+*** You are running in headless mode.
+1648328173251	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilesU4T5k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58630/devtools/browser/77256be2-a03c-46bb-aca6-d1af4708c92f
+1648328179079	Marionette	INFO	Listening on port 58637
+1648328179348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648328185936	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328188707	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328195944	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+1648328219838	geckodriver	INFO	Listening on 127.0.0.1:58966
+1648328221940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58967" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilenxZ7nu"
+*** You are running in headless mode.
+1648328222368	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilenxZ7nu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58967/devtools/browser/da06b943-84e7-49e9-866c-a5ddbdd5cf16
+1648328228058	Marionette	INFO	Listening on port 58974
+1648328229194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648328236049	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328238032	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328245254	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328287021	geckodriver	INFO	Listening on 127.0.0.1:59311
+1648328289086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59312" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileBlP1bQ"
+*** You are running in headless mode.
+1648328289555	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileBlP1bQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59312/devtools/browser/d32c211f-b7f3-44d9-b891-43e41a83f76e
+1648328296046	Marionette	INFO	Listening on port 59318
+1648328297189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648328302948	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328306830	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AEDl68d_AQAAsu-f5bPxy7J3zxc_NjMwNSheb1Sk6nAPCeQY5gZDckSe0jrx&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328313740	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328381741	geckodriver	INFO	Listening on 127.0.0.1:59668
+1648328383803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "59669" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileKS0eIG"
+*** You are running in headless mode.
+1648328384938	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileKS0eIG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59669/devtools/browser/7e7b1c85-95d0-4e53-9bba-3095e2c25e00
+1648328389969	Marionette	INFO	Listening on port 59676
+1648328390956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648328397595	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328400379	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328410888	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328494156	geckodriver	INFO	Listening on 127.0.0.1:60064
+1648328496189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60065" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile9Y4b7Z"
+*** You are running in headless mode.
+1648328496849	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile9Y4b7Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60065/devtools/browser/6da6e9ce-6008-4bbf-adec-fcf3b8d1814e
+1648328503432	Marionette	INFO	Listening on port 60071
+1648328504559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648328512873	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328515909	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328524555	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328845783	geckodriver	INFO	Listening on 127.0.0.1:49559
+1648328847792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49560" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileMEVan0"
+*** You are running in headless mode.
+1648328848312	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileMEVan0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49560/devtools/browser/1bf820e1-85cb-446b-85a4-3fd1a9e7ad73
+1648328853339	Marionette	INFO	Listening on port 49567
+1648328854226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648328859595	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328864395	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328883094	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648328905144	geckodriver	INFO	Listening on 127.0.0.1:49898
+1648328907223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49899" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile0WAcr1"
+*** You are running in headless mode.
+1648328908396	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile0WAcr1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49899/devtools/browser/9ca7e9e6-5757-4d68-b970-c36c95305c5e
+1648328917493	Marionette	INFO	Listening on port 49910
+1648328917674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648328926724	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648328930334	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648328936691	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648329145819	geckodriver	INFO	Listening on 127.0.0.1:50440
+1648329147821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50441" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile2qyfyq"
+*** You are running in headless mode.
+1648329164405	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile2qyfyq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50441/devtools/browser/8e551735-6759-4de8-bdf5-e57fdee4babc
+1648329172939	Marionette	INFO	Listening on port 50448
+1648329173091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1648329187744	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648329188738	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648329476388	geckodriver	INFO	Listening on 127.0.0.1:51055
+1648329478865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51056" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilefCYjWB"
+*** You are running in headless mode.
+1648329480802	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilefCYjWB\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:51056/devtools/browser/375ae1d6-9dcb-44eb-a2e0-9728b43c77b2
+1648329504856	Marionette	INFO	Listening on port 51062
+1648329508018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648329541242	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648329544031	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AIBcB8h_AQAAGF1yaJ8H9K6389m_1lRAVT3FBR1AhbUkp1KyQp4Nk2jjZWvO&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+1648329551343	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
