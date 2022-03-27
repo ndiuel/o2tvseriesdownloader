@@ -91,10 +91,7 @@ def _get_download_link(captcha_link):
     driver.switch_to.default_content()
     content = driver.find_element(By.CSS_SELECTOR, value="form>img")
     content.screenshot('content.png')
-    answer = solve_captcha('content.png').replace(" ", "")
-    driver.save_screenshot('o.png')
-    print(answer)
-    
+    answer = solve_captcha('content.png').replace(" ", "")    
     s = requests.Session()
     for cookie in driver.get_cookies():
         c = {cookie['name']: cookie['value']}
