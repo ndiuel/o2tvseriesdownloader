@@ -1216,3 +1216,21 @@ JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648383813465	geckodriver	INFO	Listening on 127.0.0.1:64621
+1648383815488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64622" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileyFk7vw"
+*** You are running in headless mode.
+1648383819634	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileyFk7vw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64622/devtools/browser/e2206e0e-3d83-47f9-8f5d-651345d6d928
+1648383825011	Marionette	INFO	Listening on port 64627
+1648383825396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648383827213	geckodriver	INFO	Listening on 127.0.0.1:64662
+1648383829228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64663" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileDvpGMs"
+*** You are running in headless mode.
+1648383829981	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileDvpGMs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64663/devtools/browser/52f69670-3c16-4631-80ee-fb926ce4ebf4
+1648383836007	Marionette	INFO	Listening on port 64672
+1648383836401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
