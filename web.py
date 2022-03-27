@@ -7,7 +7,6 @@ app.secret_key = 'secret_key'
 
 @app.route("/")
 def index():
-    flash("test flash message")
     return render_template("index.html")
     
 
