@@ -10,7 +10,7 @@ from errors import *
 
 options = webdriver.FirefoxOptions()
 options.add_argument('--headless')
-driver = webdriver.Firefox(options=options)
+driver = None
 
 
 headers = {'authority': 'o2tvseries.com',
@@ -82,6 +82,8 @@ def get_captcha_link(episode_link):
 
 
 def _get_download_link(captcha_link):
+    global driver
+    driver = driver or webdriver.Firefox(options=options)
     driver.get("https://o2tvseries.com/areyouhuman.php?fid=54646")
     WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.CSS_SELECTOR,"iframe")))
     try:
@@ -122,7 +124,7 @@ def download_video(download_link, filename):
     
 
 def solve_captcha(file):
-    image = cv2.imread('content.png')
+    image = cv2.imread(file)
     return pytesseract.image_to_string(image, lang="eng", config="--psm 6")
 
 

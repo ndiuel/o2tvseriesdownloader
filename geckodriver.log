@@ -1254,3 +1254,40 @@ DevTools listening on ws://localhost:64764/devtools/browser/924e87fc-dc6c-4094-9
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
 1648383993136	geckodriver	INFO	Listening on 127.0.0.1:64851
+1648384012836	geckodriver	INFO	Listening on 127.0.0.1:64860
+1648384014858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64861" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilexbzGag"
+*** You are running in headless mode.
+1648384015288	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofilexbzGag\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64861/devtools/browser/4a71af17-505d-4761-9e69-5df33d4a2dce
+1648384020132	Marionette	INFO	Listening on port 64866
+1648384020367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648384021929	geckodriver	INFO	Listening on 127.0.0.1:64895
+1648384023984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64896" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile4yJp27"
+*** You are running in headless mode.
+1648384024646	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofile4yJp27\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64896/devtools/browser/8a1c8a85-9ce5-4a84-b3f0-0d0572cd5c2c
+1648384030709	Marionette	INFO	Listening on port 64904
+1648384031895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648384074396	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648384080375	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AABWP8t_AQAAJEIcY-Teww4wDzlV77_vkeTXMTEe-1SIg70T4ucoYjJgwc3w&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.bet365.com/members/services/host/Scripts/js/ProductCommon_v1.js?seed=AABWP8t_AQAAJEIcY-Teww4wDzlV77_vkeTXMTEe-1SIg70T4ucoYjJgwc3w&PIRXTcSdwp--z=q, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tgtag.io/tg.js?pid=tg-003828-001, line 1: WebGL context was lost.
+1648384092721	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://www.frapapa.com/content/frapapa-6rapap1/themes/frapapa/assets/1.0.4/btobet.min.js, line 5: TypeError: a(...).affix is not a function
+1648384209259	geckodriver	INFO	Listening on 127.0.0.1:65257
+1648384211280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "65258" "-no-remote" "-profile" "C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileGzpcA9"
+*** You are running in headless mode.
+1648384211792	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ndi\\AppData\\Local\\Temp\\rust_mozprofileGzpcA9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65258/devtools/browser/a68df992-eb91-4ca3-ab32-63ea16199ed8
+1648384216547	Marionette	INFO	Listening on port 65263
+1648384216762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648384227913	geckodriver	INFO	Listening on 127.0.0.1:65301
