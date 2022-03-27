@@ -6,6 +6,11 @@ import cv2
 import pytesseract
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
+from errors import *
+
+options = webdriver.FirefoxOptions()
+options.add_argument('--headless')
+driver = webdriver.Firefox(options=options)
 
 
 headers = {'authority': 'o2tvseries.com',
@@ -16,9 +21,12 @@ def get_series_link(series):
     r = requests.get('https://google.com/search',
                      params={'q': f'site:o2tvseries.com {series}'})
     soup = BeautifulSoup(r.text, 'lxml')
-    first_tag = soup.select('.kCrYT > a')[0]
-    link = first_tag['href'].split("=")[1].split("&")[0]
-    return link
+    try:
+        first_tag = soup.select('.kCrYT > a')[0]
+        link = first_tag['href'].split("=")[1].split("&")[0]
+        return link
+    except:
+        raise SeriesNotFound(f"could not find {series}")
 
 
 def get_season_link(series_link, season):
@@ -27,7 +35,11 @@ def get_season_link(series_link, season):
     for l in soup.select('.data'):
         num = int(l.text.split(" ")[1])
         if num == season:
-            return l.select('a')[0]['href']
+            try:
+                return l.select('a')[0]['href']
+            except:
+                pass 
+    raise SeasonNotFound(f"season {season} not found")
 
 
 def get_episode_link(season_link, episode):
@@ -35,7 +47,10 @@ def get_episode_link(season_link, episode):
         for l in soup.select('.data'):
             num = int(l.text.split(" ")[1])
             if num == episode:
-                return l.select('a')[0]['href']
+                try:
+                    return l.select('a')[0]['href']
+                except:
+                    pass
 
     r = requests.get(season_link, headers=headers)
     soup = BeautifulSoup(r.text, 'lxml')
@@ -51,20 +66,22 @@ def get_episode_link(season_link, episode):
         link = _episode_link(soup)
         if link:
             return link
+    
+    raise EpisodeNotFound(f"episode {episode} not found")
 
 
 def get_captcha_link(episode_link):
     r = requests.get(episode_link, headers=headers)
     soup = BeautifulSoup(r.text, 'lxml')
-    url = [l for l in soup.select('.data a') if l['href'] != "#"][-2]['href']
-    r = requests.get(url, headers=headers)
-    return r.url
+    try:
+        url = [l for l in soup.select('.data a') if l['href'] != "#"][-2]['href']
+        r = requests.get(url, headers=headers)
+        return r.url
+    except:
+        raise CaptchaLinkNotFound("could not find captcha")
 
 
 def _get_download_link(captcha_link):
-    options = webdriver.FirefoxOptions()
-    options.add_argument('--headless')
-    driver = webdriver.Firefox(options=options)
     driver.get("https://o2tvseries.com/areyouhuman.php?fid=54646")
     WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.CSS_SELECTOR,"iframe")))
     try:
@@ -88,10 +105,15 @@ def _get_download_link(captcha_link):
 
 def get_download_link(captcha_link):
     for _ in range(15):
-        url = _get_download_link(captcha_link)
-        arr = url.replace('http://', "")
-        if arr.startswith('d'):
-            return url
+        try:
+            url = _get_download_link(captcha_link)
+            arr = url.replace('http://', "")
+            if arr.startswith('d'):
+                return url
+        except Exception as e:
+            print(e)
+    
+    raise DownloadLinkNotFound("could not find download link")
 
 
 def download_video(download_link, filename):

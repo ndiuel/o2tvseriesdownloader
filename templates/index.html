@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2tvseries Downloader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        html {
+            max-height: 100%;
+            height: 100%;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100%;
+            min-height: 100%;
+            padding: 3rem 2rem;
+        }
+
+        input {
+            display: block;
+            height: 3rem;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #d1d5db;
+            width: 100%;
+            padding: 1rem;
+            font-family: 'Dosis', 'sans-serif';
+            font-weight: 600;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #1f2937;
+        }
+
+        .container {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .form-item {
+            width: 100%;
+            margin-bottom: .7rem;
+        }
+
+        .form-item label+input {
+            margin-top: .5rem;
+        }
+
+        .season {
+            display: flex;
+        }
+
+        .horizontal {
+            display: flex;
+        }
+
+        .horizontal>*+* {
+            margin-left: 1rem;
+        }
+
+        button {
+            outline: none;
+            border: 0;
+        }
+
+        form button {
+            padding: 1rem;
+            display: flex;
+            height: 3rem;
+            background-color: #1d4ed8;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Dosis', sans-serif;
+            width: 13rem;
+            border-radius: 5px;
+            font-weight: bolder;
+            margin-top: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.01rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            color: #1f2937;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .flash {
+            background: white;
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .flash .msg {
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            padding: 1rem;
+            width: 100%;
+            max-width: 10rem;
+        }
+
+        .msg p {
+            color: #1f2937;
+            margin-top: 1rem;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .cancel {
+            display: flex;
+            justify-content: flex-end;
+            color: #1f2937;
+        }
+
+        .cancel button {
+            font-weight: bold;
+            font-size: 1.1rem;
+            font-family: 'Dosis', sans-serif;
+            color: #1f2937;
+            background: transparent;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flash">
+        {% for msg in get_flashed_messages() %}
+        <div class="msg">
+            <div class="cancel">
+                <button>X</button>
+            </div>
+            <p>
+
+                {{msg}}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+    <h1>O2tvseries Downloader</h1>
+    <div class="container">
+        <form action="/download" method="POST">
+            <div class="form-item">
+                <label for="series">Series Name</label>
+                <input type="text" name="series" required>
+            </div>
+            <div class="form-item horizontal">
+                <div>
+                    <label for="season">Season</label>
+                    <input type="text" name="season" inputmode="numeric" pattern="[0-9]+" required>
+                </div>
+                <div>
+                    <label for="episode">Episode</label>
+                    <input type="text" name="episode" inputmode="numeric" pattern="[0-9]+" required>
+                </div>
+            </div>
+            <div>
+                <button type="submit">Download</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    const btn = document.querySelector('form button')
+    const form = document.querySelector('form')
+    const cancel = document.querySelector('.cancel button')
+    const flash = document.querySelector('.flash')
+    form.onsubmit = e => {
+        btn.textContent = "Getting Download Link..."
+    }
+
+    cancel.onclick = e => {
+        flash.style.display = 'none'
+    }
+</script>
+</html>
